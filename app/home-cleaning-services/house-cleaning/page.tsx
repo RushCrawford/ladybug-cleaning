@@ -1,26 +1,26 @@
-import { call } from 'react-native-phone-call'
+// import { call } from 'react-native-phone-call'
 import Link from 'next/link'
 import React from 'react'
 
 
 const HouseCleaning = () => {
-  const phoneNumber = '15202502466'
+//   const phoneNumber = '15202502466'
   
-  const handleCall = () => {
-    call(phoneNumber)
-    .then(()=> {
-      console.log('Call initiated successfully')
-    })
-    .catch((error)=> {
-      console.error('Error initiating call:', error)
-    })
-}
+//   const handleCall = () => {
+//     call(phoneNumber)
+//     .then(()=> {
+//       console.log('Call initiated successfully')
+//     })
+//     .catch((error)=> {
+//       console.error('Error initiating call:', error)
+//     })
+// }
 
   return (
     <div className="mx-32 my-32">
       <div>
         <h1>A clean home puts your mind at ease.</h1>
-        <Link href="#" onClick={handleCall}><strong>Give us a call.</strong></Link>
+        {/* <Link href="#" onClick={handleCall}><strong>Give us a call.</strong></Link> */}
       </div>
       <h1 className='text-3xl my-5'>
         Trust Ladybug Cleaning for Expert Home Cleaning
